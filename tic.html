@@ -8,54 +8,58 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
     <script src="tic.js"></script>
+    <!-- <script src="logic.js"></script> -->
   </head>
   <body>
     <header>
       <h1>Tic Tac Toe Game</h1>
       <form>
-        <input type="text" name="User1" value="" placeholder="Enter Player 1 Name">
-        <input type="text" name="User1" value="" placeholder="Enter Player 2 Name">
+        <input id="user1" type="text" name="User1" value="" placeholder="Enter Player 1 Name">
+        <input id="user2" type="text" name="User2" value="" placeholder="Enter Player 2 Name">
         <br>
-        <input type="button" name="Submit" value="Submit">
+        <input id="userInputButton" type="button" name="Submit" value="Submit">
       </form>
     </header>
     <main>
     <div id="top">
       <div id="boxOne" class="gameBoardTop GameBoardStyle">
-          <p class="centerText">One</p>
+          <p class="centerText">0</p>
       </div>
       <div id="boxTwo" class="gameBoardTop GameBoardStyle">
-          <p class="centerText">Two</p>
+          <p class="centerText">1</p>
       </div>
       <div id="boxThree" class="gameBoardTop GameBoardStyle">
-          <p class="centerText">Three</p>
+          <p class="centerText">2</p>
       </div>
     </div>
     <div id="middle">
       <div id="boxFour" class="gameBoardMiddle GameBoardStyle">
-          <p class="centerText">Four</p>
+          <p class="centerText">3</p>
       </div>
       <div id="boxFive" class="gameBoardMiddle GameBoardStyle">
-          <p class="centerText">Five</p>
+          <p class="centerText">4</p>
       </div>
       <div id="boxSix" class="gameBoardMiddle GameBoardStyle">
-          <p class="centerText">Six</p>
+          <p class="centerText">5</p>
       </div>
     </div>
     <div id="bottom">
       <div id="boxSeven" class="gameBoardBottom GameBoardStyle">
-          <p class="centerText">Seven</p>
+          <p class="centerText">6</p>
       </div>
       <div id="boxEight" class="gameBoardBottom GameBoardStyle">
-          <p class="centerText">Eight</p>
+          <p class="centerText">7</p>
       </div>
       <div id="boxNine" class="gameBoardBottom GameBoardStyle">
-          <p class="centerText">Nine</p>
+          <p class="centerText">8</p>
       </div>
     </div>
 
     </main>
     <footer>
+      <p>
+        <input id="restartButton" type="button" name="Restart" value="Restart">
+      </p>
     </footer>
   </body>
 </html>
